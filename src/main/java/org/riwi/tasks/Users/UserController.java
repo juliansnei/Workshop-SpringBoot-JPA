@@ -34,12 +34,12 @@ public class UserController {
         return userService.update(userDto);
     }
 
-    @PutMapping("/update/{id}")
+    /*@PutMapping("/update/{id}")
     public UsersDto updateById(
             @PathVariable("user-id") Integer id
     ){
         return userService.updateById(id);
-    }
+    }*/
 
 
     @GetMapping("/users/{user-id}")

@@ -28,11 +28,11 @@ public class UserService {
         return userDto;
     }
 
-    public UsersDto updateById(Integer id){
+   /* public UsersDto updateById(Integer id){
         var userFound = findUserById(id);
         userRepository.save(userFound);
         return userFound;
-    }
+    }*/
 
     public List<UsersDto> findAllUsers(){
         return userRepository.findAll()
